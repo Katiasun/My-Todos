@@ -1,0 +1,16 @@
+.checkbox {
+  appearance: none;
+
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.checkbox:checked {
+  background-image: url("./check.svg");
+}

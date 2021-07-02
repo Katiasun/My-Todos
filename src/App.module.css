@@ -1,0 +1,28 @@
+.wrapper {
+  background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  padding-top: 31px;
+  min-height: 100vh;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 110px;
+  color: #ffffff;
+  text-shadow: 0px 6px 8px rgba(24, 39, 75, 0.12),
+    0px 8px 16px rgba(24, 39, 75, 0.08);
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.form {
+  margin: 0 auto 40px;
+  max-width: 520px;
+}
